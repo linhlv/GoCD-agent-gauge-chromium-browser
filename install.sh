@@ -8,6 +8,14 @@ sudo apt-get update
 sudo apt-get install -y openjdk-8-jre git
 sudo apt-get install -y go-agent
 
+# Start the agent
+sudo /bin/echo "Starting GoCD Agent"
+sudo /etc/init.d/go-agent start
+
+# Stop the agent
+sudo /bin/echo "Stopping GoCD Agent"
+sudo /etc/init.d/go-agent stop
+
 # Copy agent setup
 sudo cp go-agent /etc/default/go-agent
 
