@@ -19,7 +19,7 @@ sudo curl -sL https://deb.nodesource.com/setup_9.x | sudo bash -
 sudo apt-get install -y nodejs
 
 # Link node
-sudo ln -s /usr/bin/nodejs /usr/bin/node
+#sudo ln -s /usr/bin/nodejs /usr/bin/node
 
 
 sudo apt-key adv --keyserver hkp://pool.sks-keyservers.net --recv-keys 023EDB0B

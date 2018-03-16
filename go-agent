@@ -1,0 +1,2 @@
+GO_SERVER_URL=https://gocd.appiume.com/go
+AGENT_WORK_DIR=/var/lib/${SERVICE_NAME:-go-agent}
